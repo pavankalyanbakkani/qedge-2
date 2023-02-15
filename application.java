@@ -18,6 +18,24 @@ class GFG {
                            + unicode);
     }
 }
+ 
+//  changes by ram
+import java.util.Arrays;
+
+class GFG {
+	public static void main(String args[])
+	{
+		int[] arr = { 5, -2, 23, 7, 87, -42, 509 };
+		System.out.println("The original array is: ");
+		for (int num : arr) {
+			System.out.print(num + " ");
+		}
+		Arrays.sort(arr);
+		System.out.println("\nThe sorted array is: ");
+		for (int num : arr) {
+			System.out.print(num + " ");
+		}
+
 
 //adding code by pavan kalyan bakkani feb15
 // Java code for linearly search x in arr[]. If x
@@ -50,5 +68,6 @@ class LinearSearch {
 			System.out.println("Element is not present in the array");
 		else
 			System.out.println("Element found at position " + index);
+     development
 	}
 }
